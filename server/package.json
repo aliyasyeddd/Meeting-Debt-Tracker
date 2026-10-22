@@ -1,0 +1,23 @@
+{
+  "name": "Meeting-Debt-Tracker",
+  "version": "1.0.0",
+  "description": "Log meetings, tag them 'could've been an email,' and get weekly/monthly reports on hours wasted, exportable as PDF.",
+  "keywords": [
+    "node js",
+    "javascript"
+  ],
+  "license": "ISC",
+  "author": "aliya syed",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "mongoose": "^9.11.2",
+    "nodemon": "^3.1.14"
+  }
+}
